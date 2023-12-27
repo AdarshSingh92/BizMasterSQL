@@ -57,4 +57,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="VendorDetails.sql" />
+    <Build Include="Lookup.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="BizMasterSQL.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.Lookup.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BizMasterSQL.publish.xml" />
+  </ItemGroup>
 </Project>
