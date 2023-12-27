@@ -1,0 +1,21 @@
+﻿CREATE TABLE Vendor (
+    VendorID INT PRIMARY KEY IDENTITY(1,1),
+    VendorName VARCHAR(100) NOT NULL,
+    VendorType VARCHAR(50) NOT NULL,
+    VendorCategory VARCHAR(50) NOT NULL,
+    VendorCompanyType VARCHAR(200),
+    VendorAddress VARCHAR(255),
+    VendorCity VARCHAR(100),
+    VendorState VARCHAR(100),
+    VendorCountry VARCHAR(100),
+    PANNumber VARCHAR(10),
+    GSTINNumber VARCHAR(15),
+    ExciseNumber VARCHAR(20),
+    ImportNumber VARCHAR(20),
+    ExportNumber VARCHAR(20),
+    StateCode VARCHAR(10),
+    VendorContact1 VARCHAR(20),
+    VendorContact2 VARCHAR(20),
+    VendorEmailID1 VARCHAR(100), 
+    VendorEmailID2 VARCHAR(100)
+);

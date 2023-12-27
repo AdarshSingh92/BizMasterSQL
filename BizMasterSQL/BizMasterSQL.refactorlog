@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2b78e7c9-5321-4a30-b5e5-667f1d6e416f" ChangeDateTime="12/27/2023 11:05:23">
+    <Property Name="ElementName" Value="[dbo].[Lookup].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LutID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="331fbcc0-aea3-4c28-9782-9ebc4c2e3279" ChangeDateTime="12/27/2023 11:06:46">
+    <Property Name="ElementName" Value="[dbo].[Lookup].[LutExa]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lookup]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LutExample" />
+  </Operation>
+</Operations>
